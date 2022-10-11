@@ -1,0 +1,58 @@
+1. En el siguiente programa, se puede comprobar que la variable A local al blo-
+que es diferente de la variable A local al main.
+
+#include <stdio.h>
+int main ()
+{
+	int A, i
+	for (i=1; i 4; i++)
+	{
+		int A ;
+		A++;
+		printf("\n A del bloque es %d ", A);
+	}
+	printf ("\n %d ", A );
+}
+
+Los valores iniciales carecen de sentido pues son variables locals no inicializadas, pero es notable que la variable A del bloque respete el incremento.
+Se proponen dos explicaciones para este hecho
+	■ La variable A solamente se declara una vez dentro del bloque y en las restantes iteraciones dicha declaración se ignora.
+	■ El funcionamiento dinámico de la pila hace que siempre ocupe el mismo lugar de memoria, en este caso manteniendo el valor allí guardado.
+¿Qué opina el lector?
+
+2. En el siguiente programa se está cometiendo un error al transferir un entero 5 en un parámetro de tipo char.
+
+#include <stdio.h>
+
+funcion ( char A )
+{
+	printf("\nFuncion %d ", A );
+}
+
+int main()
+{
+	int A ;
+	A = 1857 ;
+	funcion (A);
+	printf("\nMain %d ", A );
+}
+
+Predecir los valores que se mostrarán en pantalla y verificarlos posteriormente ejecutando el programa.
+
+3. Se desea realizar un programa que utilice una función que calcule y retorne el valor de X (X elevado a la potencia Y), siendo Xe Y enteros positivos, y por lo tanto, dando un resultado también entero.
+Debido al rápido crecimiento de este valor será necesario retornar el valor en un unsigned long.
+
+4. Construir una función que reciba un entero positivo y retorne 1 si éste es primo y en caso contrario.
+
+5. Utilizar la función del problema anterior para construir otra función que reciba dos enteros positivos y retorne la cantidad de númeras primos que se encuentran en el rango determinado por ellos.
+
+6. Utilizar la función del problema anterior para mostrar las cantidades de números primos que hay en los rangos [1000-2000], [2000,3000] y [3000,4000].
+
+7. Construir una función que reciba un entero positivo y retorne 1 si éste es perfecto y si no lo es. Utilizarla para mostrar los primeros 5 números perfectos.
+Número perfecto: aquel entero cuyo valor es igual a la suma de sus divisores exac-
+tos, excluyendo al número mismo. Por ejemplo: 6=3+2+1
+
+8. Construir una función que reciba dos números enteros positivos y retorne un 1 si estos constituyen un par de números amigos, y 8 si no lo son. Utilizarla para mostrar algún par de números amigos.
+Números amigos: dos números enteros son amigos si cada uno de ellos es igual a la suma de los divisores exactos del otro, exceptuando al número mismo.
+
+9. Construir una función que lea un carácter de teclado y lo escriba en pantalla colocando el carácter cuyo código ASCII es el siguiente al recibido.

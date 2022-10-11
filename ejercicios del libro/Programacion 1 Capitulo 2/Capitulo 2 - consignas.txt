@@ -1,0 +1,34 @@
+1. Permitir el ingreso del radio (flotante) e imprimir en pantalla la longitud de la circunferencia y la superficie del círculo correspondiente.
+
+2. Ingresar 3 valores enteros y calcular su promedio.
+
+3. Realizar un programa que permita el ingreso de las diagonales de un rombo y muestre el valor de su superficie.
+
+4. Realizar un programa que permita el ingreso de un valor de temperatura y
+muestre los valores equivalentes en las tres escalas (Celsius, Farenheit y Kelvin). Dado que no se sabe en que escala se ingresó el valor, deberán contemplarse los 3 casos.
+
+5. Permitir el ingreso de la superficie de un círculo y determinar su diámetro utilizando la función sqrt(), que retorna la raíz cuadrada de un flotante y está asociada a la cabecera math.h
+
+6. Permitir el ingreso de 5 letras que componen una palabra. Al finalizar mostrar en pantalla la palabra formada por los códigos ASCII de cada letra a los que se les sumó el valor 5.
+
+7. Realice un programa que dibuje en pantalla un triángulo retángulo, utilizando asteriscos, de esta forma:
+
+	*
+	**
+	***
+	****
+
+Permitir que el usuario ingrese el tamaño de los catetos (ingresar un sólo nú-
+mero, dado que son iguales).
+
+8. Repita el programa anterior pero dibujando el triángulo al revés:
+
+	   *
+	  **
+	 ***
+	****
+
+9. Realice un programa para ingresar el total de una factura (float) y el porcen-
+taje a descontar (otro float).
+Mostrar en pantalla el precio final. Por ejemplo, para una factura de $120 y
+un descuento de 8.8% el precio final es $109.44

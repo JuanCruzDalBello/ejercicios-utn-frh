@@ -1,0 +1,23 @@
+1. Realizar un programa que permita comprobar la diferencia de comportamiento entre las funciones gets() y scanf().
+
+2. Construya una función de comparación de strings similar a strcmp() que contemple la existencia de las letras "ñ" y "Ñ".
+
+3. El programa que sigue permite el ingreso de 2 strings for teclado y luego los
+muestra en pantalla.
+
+#include <stdio.h>
+int main()
+{
+	char VEC[2][5], I;
+	for (I=0; I<2; I++)
+		gets (VEC[I]);
+	printf("\n\n\n");
+	for (I=0; I<2; I++)
+		puts(VEC[I]);
+}
+
+Explique la diferencia de comportamiento cuando los datos cargados son "PEPE" y "LOLA", y cuando son "CARLOS" y "MAGNO".
+
+4. Repetir el problema del ejemplo "búsqueda en vector de strings", utilizando el método de búsqueda binaria en lugar de la búsqueda secuencial.
+
+5. Ingresar la nómina de 10 alumnos (es decir, sus nombres) y sus respectivos promedios. Determinar quién es el alumno de mejor promedio (suponerlo único).

@@ -1,0 +1,43 @@
+1. Se ingresarán números enteros positivos. Determinar cuántos de estos son pares. El ingreso finalizará con un número negativo.
+
+2. Se ingresarán 100 números enteros. Sumar los de orden impar 1,3,5,... por un lado y los de orden par 2,4,6,... por otro. Determinar cuáles proporcionan la mayor suma.
+
+3. Se ingresarán números enteros hasta que se ingrese el 235. Indicar cuántas veces ocurrió el ingreso del número 23.
+
+4. Permitir el ingreso de una clave numérica entera. Finalizar el ingreso solamente cuando la clave ingresada sea 23645.
+
+5. Repetir el problema anterior permitiendo sólo 3 intentos. Luego del tercer intento fallido colocar una advertencia.
+
+6. Determinar si un número entero positivo ingresado por teclado es o no un número perfecto. Los números perfectos son aquellos cuyo valor es igual a la suma de todos sus divisores exactos con excepción del mismo número, por ejemplo 6 = 1+2+3
+
+7. Mostrar los primeros 5 números perfectos.
+
+8. Simular el tiro de una moneda para 1, 10, 100, 1000 y 10000 intentos. Mostrar el porcentaje de ocurrencia de cara y seca.
+
+Para realizar este programa necesitará obtener números aleatorios, que permitan simular el arroje de la moneda. En la biblioteca estándar de C existe la función rand(), que devuelve un número pseudoaleatorio. Este número se obtiene por un algoritmo específico, que devuelve números que parecen no seguir ninguna serie, por lo que se pueden utilizar como pseudoaleatorios. Además, se precisa inicializar la secuencia partiendo de un valor que cambie cada vez (el inicio de la secuencia se denomina "semilla” ó “seed") u obtendremos siempre la misma secuencia. Aquí un ejemplo:
+
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+	int i;
+	srand(time());	//inicializacion de la semilla con el reloj actual
+	for(i=0; i<28;i++)
+		printf("%8d", (rand() % 9)+1);	//aleatorio de 1 al 9 inclusive
+}
+
+9. Determinar si hay enteros de 3 cifras cuyo valor sea igual al producto de cada una de las mismas.
+
+10. Ingresar 10 valores por teclado. Indicar cuál fue el mayor y en que posición entró.
+
+11. Ingresar 10 valores por teclado. Indicar si esta secuencia es creciente (todo valor es mayor que el anterior).
+
+12. Ingresar por teclado un entero decimal positivo. Mostrarlo en pantalla en binario.
+
+13. Ingresar por teclado un numero binario. Mostrar en pantalla su valor decimal.
+
+14. Ingresar los datos de 10 alumnos consistentes en legajo y 8 notas. Indicar cuál es el alumno de mejor promedio.
+
+15. Ingresar los datos de los alumnos de un curso. Estos datos consisten en
+nota (int) y sexo (char: M/F). Indicar si el mejor promedio pertenece a
+los alumnos o a las alumnas. Utilizar switch para la selección.

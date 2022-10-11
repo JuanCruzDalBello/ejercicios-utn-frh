@@ -1,0 +1,35 @@
+1. Ingrese 20 valores enteros y muéstrelos en pantalla en una línea, en el orden de ingreso, y en la línea siguiente, en orden inverso al de ingreso.
+
+2. Ingrese 20 valores enteros y posteriormente un valor entero adicional al que llamaremos DIV. Indique cuantos componentes del vector son divisibles por DIV.
+
+3. Realizar una función que reciba un vector de enteros y su longitud, y retorne el promedio de sus valores.
+
+4. Crear una función que reciba un vector de enteros y su longitud, y cargue sus variables con valores aleatorios comprendidos entre 0 y 99 (utilizar la funcion rand).
+
+5. Realizar una función que simule arrojar dado (retorna valores enteros aleatorios comprendidos entre 1 y 6).
+
+Utilizando dicha función realice el experimento de arrojar 1000 veces el dado, almacenando las cantidades de aparición de cada cara en un vector.
+
+Imprima la cantidad de veces que apareció cada cara y su porcentaje sobre el total.
+
+6. Realizar una función que reciba un vector de enteros y su longitud y retorne 1 si el vector esté crdenado en forma creciente, y 0 en caso contrario.
+
+7. Implementar una función que reciba dos vectores de enteros del mismo tamaño y su longitud, y retorne 1 si ambos vectores son iguales (idénticos contenidos en idénticas posiciones) y 0 en caso contrario.
+
+8. Tomando como base el ejemplo de vectores apareados con cuentas bancarias,
+muestre en pantalla todos los datos de cuentas de tipo "A".
+
+9. Tomando como base el mismo ejemplo de vectores apareados con cuentas
+bancarias, muestre en pantalla los datos de la cuenta de mayor saldo.
+
+10. Tomando como base el mismo ejemplo de vectores apareados con cuentas bancarias, muestre en pantalla todos los datos de las cuentas cuyo saldo supere los $500, ordenados en forma decreciente de saldo (los más grandes primero).
+
+11. En un torneo de búsqueda submarina compiten 15 buceadores (numerados del 1 al 15).
+Se pide mostrar la tabla de posiciones actualizada (y ordenada) con cada captura hecha por un competidor. El dato que se proporciona cada vez es simplemente el número de buceador que logró una captura. El ingreso de datos (y la competencia) finaliza con el ingreso de un número de competidor negativo.
+
+12. Se ingresarán (en un orden cualquiera) los datos de 16 equipos de fútbol, compuestos por código del equipo (int) y cantidad de puntos (int). Mostrar la tabla de posiciones (ordenada) y a continuación el fixture de la primera fecha de play offs, es decir, los partidos entre el primero y el último, el segundo y el anteúltimo, etc.
+
+13. Generar y mostrar una matriz de 8 x 8 enteros cuyos elementos valgan 8, excepto 2 de ellos que valdrán 1 y estarán ubicados en posiciones aleatorias de la matriz.
+Mostrar dicha matriz en pantalla.
+
+14. Crear una función que reciba la matriz del problema anterior y retorne 1 si los elementos distintos de e comparten la misma fila, columna o diagonal. En caso contrario, retornar 0.
